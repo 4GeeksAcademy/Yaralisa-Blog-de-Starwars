@@ -1,0 +1,61 @@
+
+.navbar {
+    background: linear-gradient(135deg, #ffffff, #57636e); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px; 
+    padding: 0.5rem 1rem; 
+}
+
+
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.dropdown-button {
+    display: flex;
+    align-items: center;
+    color: #ffffff; 
+    font-weight: bold; 
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.dropdown-button:hover {
+    color: #f8f9fa; 
+}
+
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color: #343a40; 
+    border: none; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+    z-index: 1000; 
+}
+
+
+.dropdown-menu.show {
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1); 
+}
+
+
+.dropdown-item {
+    color: #f8f9fa;
+    transition: background-color 0.3s ease; 
+}
+
+.dropdown-item:hover {
+    background-color: #495057;
+}

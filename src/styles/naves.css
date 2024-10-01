@@ -1,27 +1,3 @@
-.home-container {
-    padding: 0 15px; 
-}
-
-.home-container .row {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.home-container .col {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.home-container .text-center {
-    text-align: center;
-}
-
-.tarjetas {
-    margin: 0 auto;
-    padding: 20px 0;
-    overflow: hidden; 
-}
-
 .tarjetas-scroll {
     display: flex;
     overflow-x: auto;
@@ -47,6 +23,12 @@
     background-color: #555;
 }
 
-.text-left-custom {
-    text-align: left;
+.responsive-img {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+

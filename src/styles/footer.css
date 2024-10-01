@@ -1,0 +1,31 @@
+.footer {
+    background: linear-gradient(135deg,#57636e, #ffffff );
+    box-shadow: 0 00px 15px rgba(0, 0, 0, 0.3), 0 12px 24px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; 
+    color: #333;
+    position: relative;
+    z-index: 10;
+    padding: 20px;
+}
+
+
+.back-to-top {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold; 
+    display: inline-block;
+    margin-bottom: 10px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.back-to-top:hover {
+    color: #0056b3; 
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.footer-text {
+    margin: 0;
+    font-size: 14px; 
+    color: #666; 
+}
