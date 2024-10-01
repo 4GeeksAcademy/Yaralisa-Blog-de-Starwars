@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { Container } from 'react-bootstrap';
 import { Context } from "../store/appContext";
 import { HeartIcon, HeartIcon as HeartOutlineIcon } from '@heroicons/react/24/outline';
-import ImageStarship from '../../img/naves.png';
+// import ImageStarship from '../../img/naves.png';
 import '../../styles/naves.css';
 
 export const Naves = () => {
@@ -23,8 +23,8 @@ export const Naves = () => {
         <Container fluid>
             <div className="tarjetas-scroll d-flex flex-nowrap overflow-auto">
                 {store.naves.map(nave => (
-                    <Card className="h-100 me-3" key={nave.uid} style={{ minWidth: "250px", position: "relative" }}>
-                        <Card.Img variant="top" src={ImageStarship} className="responsive-img" />
+                    <Card className="h-150 me-3" key={nave.uid} style={{ minWidth: "250px", position: "relative" }}>
+                        <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoUk8SPxVSbaqKk3SSqv6ZwFuy70kYai1pHg&s" className="responsive-img" />
                         <Card.Body>
                             <Card.Title>{nave.name}</Card.Title>
                             <Card.Text>

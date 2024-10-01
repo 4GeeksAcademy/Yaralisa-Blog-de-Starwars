@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { Container } from 'react-bootstrap';
 import { Context } from "../store/appContext";
 import { HeartIcon, HeartIcon as HeartOutlineIcon } from '@heroicons/react/24/outline';
-import ImagePlanets from '../../img/planetas.png';
+// import ImagePlanets from '../../img/planetas.png';
 import '../../styles/planetas.css';
 
 export const Planetas = () => {
@@ -24,7 +24,7 @@ export const Planetas = () => {
             <div className="tarjetas-scroll d-flex flex-nowrap overflow-auto">
                 {store.planetas.map(planeta => (
                     <Card className="h-100 me-3" key={planeta.uid} style={{ minWidth: "250px", position: "relative" }}>
-                        <Card.Img variant="top" src={ImagePlanets} className="responsive-img" />
+                        <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoUk8SPxVSbaqKk3SSqv6ZwFuy70kYai1pHg&s" className="responsive-img" />
                         <Card.Body>
                             <Card.Title>{planeta.name}</Card.Title>
                             <Card.Text>

@@ -18,7 +18,7 @@ export const Navbar = () => {
                         {/* Imagen de la marca o título */}
                         <Link to="/">
                             <img
-                                src="https://fontmeme.com/permalink/240831/bb0f050b78c738767e48fad9b58736ef.png"
+                                src="https://imgs.search.brave.com/hJDPYxSz2HJSQSDQhkgBo1ZN1hbJtI-FMptR-fneZxw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vc2d1cnUu/b3JnL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE4LzAyL3N0YXJf/d2Fyc19sb2dvX1BO/RzI3LnBuZz93PTEx/NjYmaD01NDkmc3Ns/PTE"
                                 alt="redimensionar-imagenes"
                                 className="navbar-brand"
                                 style={{ maxWidth: "700px", height: "auto", backgroundAttachment: "cover" }}

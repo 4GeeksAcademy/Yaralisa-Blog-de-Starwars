@@ -1,10 +1,16 @@
-.tarjetas-scroll {
+/* .tarjetas-scroll {
     display: flex;
     overflow-x: auto;
     white-space: nowrap;
     padding: 10px 0;
-}
+} */
 
+.tarjetas-scroll .card {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    width: 300px;  /* Ajusta este valor según el ancho que desees */
+    height: 400px; /* Ajusta este valor según la altura que desees */
+}
 .tarjetas-scroll .card {
     flex: 0 0 auto;
     margin-right: 10px;
@@ -32,7 +38,7 @@
     align-items: center;
     justify-content: center;
     transition: transform 0.3s ease, color 0.3s ease; 
-    font-size: 24px; 
+    font-size: 15px; 
 }
 
 .like-icon {

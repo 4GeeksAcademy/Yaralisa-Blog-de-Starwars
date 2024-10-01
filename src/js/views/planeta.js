@@ -29,7 +29,7 @@ export const Planeta = () => {
                             <Col md={6}>
                                 <Card.Img
                                     variant="top"
-                                    src="https://via.placeholder.com/800x400"
+                                    src="https://www.brickfinder.net/wp-content/uploads/2021/01/el-presidente-10143-1-death-star-ii-v02-4k-vr-1.jpg"
                                     alt="planeta"
                                 />
                             </Col>
